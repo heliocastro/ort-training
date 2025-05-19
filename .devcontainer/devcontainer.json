@@ -1,0 +1,31 @@
+//devcontainer.json
+{
+  "name": "Ort Training",
+
+  "image": "ghcr.io/heliocastro/ort",
+
+  "workspaceFolder": "/home/ort",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "esbenp.prettier-vscode",
+        "ms-python.vscode-pylance",
+        "formulahendry.code-runner",
+        "redhat.vscode-yaml",
+        "shardulm94.trailing-spaces",
+        "timonwong.shellcheck",
+        "mechatroner.rainbow-csv",
+        "mathiasfrohlich.Kotlin",
+        "fwcd.kotlin",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack"
+      ]
+    }
+  }
+}
